@@ -1,0 +1,926 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 20px;
+    margin: 0px auto;
+    width: 900px;
+
+    background: #EEEEEE;
+}
+
+.navbar {
+
+    padding: 10px 10px 10px 700px;
+
+}
+
+.tel {
+    background-color: aqua;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+    .container {
+
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px 0px;
+        margin: 0px auto;
+        width: 430px;
+
+        background: #EEEEEE;
+    }
+
+    .navbar {
+
+        padding: 10px 10px 10px 200px;
+
+    }
+
+
+
+}
+
+
+
+/*  ====================== main qo`l qism =========================== */
+
+.main {
+    width: 100%;
+    padding: 100px 100px 100px 100px;
+    align-items: center;
+    background: #EEEEEE;
+
+}
+
+.elementarno {
+    width: 100%;
+    background-color: transparent;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    font-size: 25px;
+}
+
+.cancel {
+    width: 33%;
+
+    text-align: start;
+    font-size: 30px;
+}
+
+.ategi {
+    text-decoration: none;
+    color: #2066E8;
+
+}
+
+.el {
+    width: 33.6%;
+    background-color: transparent;
+
+}
+
+.h5 {
+    font-size: 26px;
+    padding: 0px 0px 5px 0px;
+    margin: -18px 0px 0px 0px;
+}
+
+.iq {
+    width: 33%;
+    text-align: end;
+
+    background-color: transparent;
+}
+
+.iqon {
+    width: 20%;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .main {
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+        background: #EEEEEE;
+
+    }
+
+    .elementarno {
+        width: 100%;
+        background-color: transparent;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        font-size: 25px;
+    }
+
+    .cancel {
+        width: 33%;
+
+        text-align: start;
+        font-size: 18px;
+    }
+
+    .ategi {
+        text-decoration: none;
+        color: #2066E8;
+
+    }
+
+    .el {
+        width: 33.6%;
+        background-color: transparent;
+
+    }
+
+    .el p {
+        font-size: 18px;
+        padding: 0px 0px 0px 35px;
+    }
+
+    .h5 {
+        font-size: 20px;
+        padding: 0px 0px 0px 0px;
+        margin: -18px 0px 0px 0px;
+    }
+
+    .iq {
+        width: 33%;
+        text-align: end;
+
+        background-color: transparent;
+    }
+
+    .iqon {
+        width: 20%;
+    }
+
+
+
+}
+
+
+
+/* ====================== search */
+
+.search {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.search input {
+    width: 100%;
+    padding: 20px 0px 20px 70px;
+
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.sea {
+    position: relative;
+    right: 290px;
+    top: 45px;
+    position: block;
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .search {
+        text-align: center;
+        margin: 0px;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .search input {
+        width: 100%;
+
+        padding: 20px 0px 20px 40px;
+
+        border: none;
+        border-radius: 30px;
+        font-size: 12px;
+    }
+
+    .sea {
+        width: 5%;
+        position: relative;
+        right: 110px;
+        top: 36px;
+        position: block;
+
+    }
+
+
+}
+
+
+
+/* ==================== slovo */
+
+
+.slovo1 {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+.slovo2 {
+    background: #EDDCDB;
+    width: 50%;
+    padding: 40px 40px 40px 30px;
+    border-radius: 20px;
+
+}
+
+.slovo3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.h44 {
+    padding: 0px 0px 10px 10px;
+    font-size: 20px;
+}
+
+.group {
+    width: 25%;
+    padding: 0px 10px;
+}
+
+.groupp {
+    width: 21%;
+    padding: 0px 10px;
+}
+
+.slo {
+    padding: 0px 0px;
+}
+
+.slovo4 {
+    background: #FDFBF2;
+
+    width: 50%;
+    padding: 40px 40px 40px 30px;
+    border-radius: 20px;
+
+
+}
+
+.slovo5 {
+    background: #FDEEF3;
+    width: 49%;
+    padding: 40px 40px 40px 30px;
+    border-radius: 20px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 420px) {
+    .slovo1 {
+        background-color: transparent;
+
+        width: 100%;
+        display: flex;
+
+        gap: 8px;
+        padding: 5px 0px;
+    }
+
+    .slovo2 {
+        background: #EDDCDB;
+        width: 50%;
+        padding: 5px;
+        border-radius: 10px;
+        height: 60px;
+    }
+
+    .slovo3 {
+        padding: 0px 0px 0px 5px;
+        display: flex;
+
+        align-items: center;
+
+    }
+
+    .h44 {
+        padding: 10px 2px 0px 10px;
+        font-size: 10px;
+    }
+
+    .group {
+        width: 22%;
+        padding: 0px 5px;
+    }
+
+    .groupp {
+        width: 22%;
+        padding: 0px 8px;
+    }
+
+    .slo {
+        padding: 10px 2px;
+        font-size: 10px;
+    }
+
+    .slovo4 {
+        background: #FDFBF2;
+
+        width: 50%;
+        padding: 5px;
+        border-radius: 10px;
+
+        height: 60px;
+
+    }
+
+    .slovo5 {
+        background: #FDFBF2;
+        width: 48.5%;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 10px 0px 10px 0px;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cam {
+
+    background-color: transparent;
+
+
+
+    padding: 50px 10px 10px 10px;
+    text-align: center;
+
+    display: flex;
+
+}
+
+
+.img1 {
+    width: 9%;
+    padding: 12px 8px 12px 8px;
+    border-radius: 100%;
+
+}
+
+.camm {
+    font-size: 28px;
+    padding: 12px 0px 0px 20px;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .cam {
+
+        background-color: transparent;
+
+        padding: 20px 10px 0px 0px;
+
+
+        display: flex;
+
+    }
+
+    .img1 {
+        width: 10%;
+        padding: 10px 10px 10px 0px;
+        border-radius: 100%;
+
+    }
+
+    .camm {
+        font-size: 13px;
+        padding: 11px 0px 0px 0px;
+    }
+}
+
+/* =========================== qol img ============================= */
+
+.you {
+    display: flex;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    align-items: center;
+    background: #F3F3F3;
+
+    border-radius: 20px;
+
+}
+
+.img2 {
+    padding: 10px;
+    width: 50%;
+}
+
+.text {
+    padding: 0px 0px 0px 40px;
+    align-items: center;
+}
+
+.y {
+    width: 50%;
+    margin: 0px 0px 0px -5px;
+    font-size: 70px;
+}
+
+.rus {
+    display: flex;
+    font-size: 16px;
+    padding: 20px 8px;
+    gap: 20px;
+    align-items: center;
+}
+
+.ju {
+    color: rgb(169, 21, 21);
+}
+
+
+@media only screen and (max-width: 420px) {
+    .you {
+        display: flex;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        align-items: center;
+        background: #F3F3F3;
+
+        border-radius: 20px;
+
+    }
+
+    .y {
+        width: 30%;
+        margin: 0px 0px 0px -5px;
+        font-size: 20px;
+    }
+
+    .rus {
+        display: flex;
+        font-size: 15px;
+        padding: 10px 0px;
+        gap: 15px;
+        align-items: center;
+    }
+
+}
+
+
+/* ============================ text2 ==================== */
+
+.text2 {
+    background: #FFFFFF;
+
+    margin: 10px 0px 0px 0px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.text3 {
+    width: 41%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 0px 10px;
+
+    border-radius: 10px;
+
+    background: #E0332C0D;
+
+}
+
+.text4 {
+    width: 45%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+.text5 {
+    width: 33%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+.sen {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+.text6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play {
+    width: 11%;
+    background: transparent;
+
+    padding: 9px 10px 8px 10px;
+    border-radius: 100%;
+
+}
+
+.hr {
+    margin: 0px 10px;
+}
+
+
+@media only screen and (max-width: 420px) {
+
+
+    .text3 {
+        width: 57.8%;
+        padding: 10px;
+        font-size: 8px;
+        margin: 10px 0px 0px 10px;
+
+        border-radius: 10px;
+
+        background: #E0332C0D;
+
+    }
+
+    .text4 {
+        width: 63.5%;
+        padding: 10px;
+        font-size: 8px;
+        margin: 10px 0px 0px 10px;
+
+        border-radius: 10px;
+
+        background: #E0332C0D;
+
+    }
+
+    .text5 {
+        width: 47.1%;
+        padding: 10px;
+        font-size: 8px;
+        margin: 10px 0px 0px 10px;
+
+        border-radius: 10px;
+
+        background: #E0332C0D;
+
+    }
+
+    .text6 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 420px) {
+    .sen {
+        padding: 10px;
+        font-size: 11.6px;
+
+        gap: 10px;
+        border-radius: 10px;
+
+        background: #E0332C0D;
+    }
+
+    .play {
+        width: 19%;
+        background: transparent;
+
+
+        border-radius: 100%;
+
+    }
+
+    .hr {
+        margin: 10px 10px;
+    }
+}
+
+
+
+
+
+/* ========================== your qism ========================== */
+.your {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    align-items: center;
+    background: #F3F3F3;
+
+    border-radius: 20px;
+}
+
+.text7 {
+    background: #FFFFFF;
+
+    margin: 10px 0px 0px 0px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.text8 {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+.text9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text10 {
+    width: 23%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .text9 {
+        display: flex;
+
+        justify-content: space-between;
+        margin: -10px 0px 0px 0px;
+    }
+
+
+    .text10 {
+        width: 30%;
+        font-size: 8px;
+        padding: 5px;
+        margin: 10px 0px 0px 10px;
+        gap: 10px;
+        border-radius: 10px;
+
+        background: #E0332C0D;
+    }
+}
+
+
+
+
+
+/* =========================== without ======================= */
+
+.katta_without {
+
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px 0px;
+
+}
+
+.without {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+
+}
+
+.text_11 {
+    background: #FFFFFF;
+
+    margin: 10px 0px 0px 0px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.text_12 {
+    width: 38%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .katta_without {
+
+        background: #F3F3F3;
+        border-radius: 20px;
+        padding: 8px;
+        margin: 5px 0px;
+
+
+    }
+
+    .text {
+        padding: 0px 10px;
+    }
+
+    .rus {
+        gap: 3px;
+        padding: 10px 0px;
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .text_11 {
+        background: #FFFFFF;
+
+        margin: 10px 0px 0px 0px;
+        align-items: center;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .text_12 {
+        width: 55%;
+        font-size: 8px;
+        padding: 10px;
+        margin: 10px 0px 0px 10px;
+        gap: 10px;
+        border-radius: 10px;
+
+        background: #E0332C0D;
+    }
+}
+
+
+/*========================== again ===================*/
+
+.text_13 {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+
+
+.text_15 {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #e7dbdb0d;
+}
+
+.yana {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #e7dbdb0d;
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .yana {
+        width: 33%;
+        font-size: 12px;
+        padding: 5px;
+        margin: 0px 0px 0px 5px;
+        gap: 10px;
+        border-radius: 10px;
+
+        background: #e7dbdb0d;
+    }
+
+
+    .text_15 {
+        width: 50%;
+        font-size: 8px;
+        padding: 5px;
+        margin: 10px 0px 0px 5px;
+        gap: 10px;
+        border-radius: 10px;
+
+        background: #e7dbdb0d;
+    }
+}
+
+
+/* ==================== after */
+
+.text_posle {
+    width: 42%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+@media only screen and (max-width: 420px) {
+    .text_posle {
+        width: 59.1%;
+        font-size: 8px;
+        padding: 10px;
+        margin: 10px 0px 0px 10px;
+        gap: 10px;
+        border-radius: 10px;
+
+        background: #E0332C0D;
+    }
+}
+
+
+
+/* ========================== about */
+
+
+.text_pro {
+    width: 24%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+    background: #E0332C0D;
+}
+
+@media only screen and (max-width: 420px) {
+    .text_pro {
+        width: 34.8%;
+        font-size: 8px;
+        padding: 10px;
+        margin: 10px 0px 10px 10px;
+        gap: 10px;
+        border-radius: 10px;
+
+        background: #E0332C0D;
+    }
+}
